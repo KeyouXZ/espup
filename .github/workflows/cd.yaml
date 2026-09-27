@@ -23,6 +23,9 @@ jobs:
           - os: windows-latest
             target: x86_64-pc-windows-msvc
             binary-postfix: ".exe"
+          - os: windows-latest
+            target: x86_64-pc-windows-gnu
+            binary-postfix: ".exe"
           - os: ubuntu-22.04
             target: aarch64-unknown-linux-gnu
           - os: macos-latest
